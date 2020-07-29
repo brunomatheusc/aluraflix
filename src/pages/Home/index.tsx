@@ -4,7 +4,6 @@ import dadosIniciais from '../../data/dados_iniciais.json';
 
 import { Container } from './styles';
 import BannerMain from '../../components/BannerMain';
-import Footer from '../../components/Footer';
 import Carousel from '../../components/Carousel';
 
 const Home: FC = () => {
@@ -42,8 +41,6 @@ const Home: FC = () => {
 				<Carousel 
 					category={dadosIniciais.categorias[5]}
 				/>
-
-				<Footer />				
 			</Container>
 		</>
 	);

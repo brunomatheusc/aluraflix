@@ -14,7 +14,7 @@ const Menu: FC = () => {
 					<Logo src={logo} alt="AluraFlix logo"/>
 				</Link>
 
-				<ButtonLink href="new">Novo vídeo</ButtonLink>
+				<ButtonLink href="cadastro">Novo vídeo</ButtonLink>
 			</Container>
 		</>
 	);

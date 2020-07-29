@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { 
-	BannerMainContainer, ContentAreaContainer, ContentAreaContainerItem, ContentAreaContainerCategory, 
+	BannerMainContainer, ContentAreaContainer, ContentAreaContainerItem,  
 	ContentAreaContainerTitle, ContentAreaContainerDescription, WatchButton } 
 from './styles';
 
@@ -37,12 +37,9 @@ const BannerMain: FC<IProps> = ({ videoTitle, videoDescription, url }) => {
 				</ContentAreaContainerItem>
 
 				<ContentAreaContainerItem>
-					<VideoIframeResponsive
-						youtubeID={youTubeID}
-					/>
-					<WatchButton>
-						Assistir
-          </WatchButton>
+					<VideoIframeResponsive youtubeID={youTubeID} />
+					
+					<WatchButton>Assistir</WatchButton>
 				</ContentAreaContainerItem>
 			</ContentAreaContainer>
 		</BannerMainContainer>

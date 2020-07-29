@@ -70,7 +70,6 @@ interface BannerMainProps {
 }
 
 export const BannerMainContainer = styled.section<BannerMainProps>`
-	margin-top: 94px;
 	height: 80vh;
 	position: relative;
 	color: #fff;

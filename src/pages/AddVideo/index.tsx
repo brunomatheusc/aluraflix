@@ -5,7 +5,9 @@ import { Container } from './styles';
 const AddVideo: FC = () => {
 	return (
 		<>
-	
+			<Container>
+				
+			</Container>
 		</>
 	);
 };
